@@ -1,0 +1,49 @@
+{
+  "name": "invoice extraction",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Aspose.PDF": "[20.6.0]",
+    "AvalonEdit": "[6.0.1]",
+    "PDFsharp": "[1.51.5185-beta]",
+    "Swashbuckle.AspNetCore.SwaggerUI": "[5.5.0]",
+    "System.Text.Encoding": "[4.3.0]",
+    "System.Text.Encodings.Web": "[5.0.0-preview.5.20278.1]",
+    "System.Text.RegularExpressions": "[4.3.1]",
+    "UiPath": "[20.6.7473.25550-preview]",
+    "UiPath.Excel.Activities": "[2.8.5]",
+    "UiPath.Mail.Activities": "[1.8.5]",
+    "UiPath.PDF.Activities": "[3.2.2]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[19.5.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.1.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
